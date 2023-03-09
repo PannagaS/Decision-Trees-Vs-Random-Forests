@@ -26,4 +26,17 @@ Note : one-hot-encoding scheme is utilized on Sex, ChestPainType, RestingECG, Ex
 85% data is used for training, and 15% data is used for testing.
 
 ### Parameters for decision tree and random forest models
-The parameters for decision tree model and random forest model were selected based on the observations from the various graphs such as accuracy Vs max_depth, accuracy Vs min_splits, accuracy Vs n_estimators, for both training set and validation set
+ The parameters for decision tree model and random forest model were selected based on the observations from the various graphs such as accuracy Vs max_depth, accuracy Vs min_splits, accuracy Vs n_estimators, for both training set and validation set, in order to ` avoid overfitting or underfitting `
+
+![Figure_1](https://user-images.githubusercontent.com/40464435/224136641-e383d21e-4e46-46f8-bde3-d491e9b9fd59.png)
+![Figure_2](https://user-images.githubusercontent.com/40464435/224136638-c67994bf-c363-4bb6-9a20-212fb524e17b.png)
+![Figure_3](https://user-images.githubusercontent.com/40464435/224136633-86a508db-d3c6-4fef-8529-d5558386cdc3.png)
+
+## Results
+| model |training accuracy| test accuracy |
+| ---------------|----------------|--------|
+|  Decision tree   | 85.83%  |86.41%|
+| Random forest (tree ensemble)  |  94.28%  |  89.13%
+
+### Clearly a tree ensemble or random forest model is better suited for predicting heart disease.
+
