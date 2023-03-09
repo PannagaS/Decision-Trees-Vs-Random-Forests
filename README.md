@@ -5,7 +5,8 @@
 
 People with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need early detection and management.
 This dataset contains 11 features that can be used to predict possible heart disease.
-Let's train a machine learning model to assist with diagnosing this disease.
+ 
+Dataset : https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 
 ### Features (Patient history needed on the following parameters):
 - Age: age of the patient [years]
