@@ -39,5 +39,5 @@ Note : one-hot-encoding scheme is utilized on Sex, ChestPainType, RestingECG, Ex
 |  Decision tree   | 85.83%  |86.41%|
 | Random forest (tree ensemble)  |  94.28%  |  89.13%
 
-### Clearly a tree ensemble or random forest model is better suited for predicting heart disease.
+### Clearly a random forest (a tree ensemble) model is better suited for predicting heart disease.
 
